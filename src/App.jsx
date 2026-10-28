@@ -11,7 +11,7 @@ export default function App() {
   const t = translations[language];
 
   return (
-    <div className="min-h-screen overflow-hidden bg-[#f8f4ec] text-[#2b211c]">
+    <div className="min-h-screen overflow-x-hidden bg-cream text-ink">
       <Header language={language} setLanguage={setLanguage} t={t} />
       <main>
         <Home t={t} />
