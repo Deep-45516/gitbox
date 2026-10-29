@@ -157,3 +157,26 @@ body { margin: 0; font-family: var(--font-sans); background: var(--color-cream);
   html { scroll-behavior: auto; }
   .box-rise, .box-bob, .box-shadow { animation: none; }
 }
+
+/* ---------- Long copy + Read more ---------- */
+.copy { margin-top: 1.15rem; font-size: 1.0625rem; line-height: 1.95; color: #6d5648; }
+.readmore { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .5s ease; }
+.readmore.is-open { grid-template-rows: 1fr; }
+.readmore-inner { min-height: 0; overflow: hidden; visibility: hidden; opacity: 0; transition: opacity .4s ease, visibility 0s .5s; }
+.readmore.is-open .readmore-inner { visibility: visible; opacity: 1; transition: opacity .5s ease .1s, visibility 0s; }
+.readmore-btn {
+  margin-top: 1.1rem; padding: 0; background: none; border: 0; cursor: pointer;
+  font: 700 14px var(--font-sans); letter-spacing: .04em; color: var(--color-terra);
+  border-bottom: 1px dotted var(--color-terra);
+}
+.readmore-btn:hover { color: var(--color-terra-d); border-bottom-color: var(--color-terra-d); }
+
+.devo-band {
+  margin-top: 3rem; padding: 28px 22px; text-align: center; border-radius: 22px;
+  background: var(--color-terra); color: var(--color-cream);
+  outline: 1px dotted rgba(251,243,228,.6); outline-offset: -9px;
+}
+.devo-phrase { display: block; font: 600 clamp(32px, 8vw, 48px)/1.3 "Noto Serif Devanagari", var(--font-display); color: #f3d9a0; }
+.devo-band p { margin: 10px auto 0; max-width: 34rem; font-size: 15px; line-height: 1.8; color: #f6dccb; }
+
+.founder-section { background: #f7ebd6; }
