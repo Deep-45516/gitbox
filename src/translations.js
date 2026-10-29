@@ -69,7 +69,7 @@ export const translations = {
     whatsapp: "Chat on WhatsApp",
     emailLabel: "Email",
     locationLabel: "Based in",
-    location: "Rajasthan, India",
+    location: "Maharashtra, India",
 
     footerLine: "A little tradition to take home."
   },

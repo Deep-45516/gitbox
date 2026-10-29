@@ -1,8 +1,8 @@
 import { ArrowUpRight, Mail, MapPin, MessageCircle } from "lucide-react";
 
 // Replace with the real business contact details before launch.
-const OWNER_WHATSAPP = "919999999999";
-const OWNER_EMAIL = "hello@atithi.in";
+const OWNER_WHATSAPP = "918847764268";
+const OWNER_EMAIL = "prajyotwalewale@gmail.com";
 
 export default function Contact({ t }) {
   const msg = encodeURIComponent(
